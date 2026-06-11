@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# Data — Food-101 is 500MB, don't commit it
+data/
+
+# Large checkpoint files — commit only the best final one if desired
+checkpoints/
+
+# Results images — generated locally, shown via README if you upload manually
+# Comment these out if you want to commit your result images
+# results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
