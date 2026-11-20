@@ -16,11 +16,8 @@ A production-quality image classifier trained on the [Food-101](https://data.vis
 
 > Results will update here once training is complete.
 
-### Training Curves
-![Training curves](results/training_curves.png)
-
-### Grad-CAM — What the Model Sees
-![Grad-CAM](results/gradcam_results.png)
+### Training curves and Grad-CAM
+Running `06_plot_results.py` and `05_gradcam.py` writes the training curves and Gradient-weighted Class Activation Mapping (Grad-CAM) visualisations to `results/`. These images are generated locally and are not committed to the repository.
 
 ---
 
@@ -37,7 +34,7 @@ A production-quality image classifier trained on the [Food-101](https://data.vis
 ├── models/
 │   └── food_classifier.py      # Reusable EfficientNet-B2 module
 ├── checkpoints/                # Saved model weights (best per stage)
-└── results/                    # Output images
+└── results/                    # Output images (generated locally, not committed)
 ```
 
 ---
